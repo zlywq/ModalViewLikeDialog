@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0838E9061A56C693007F2143 /* DialogList_TowArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0838E9041A56C693007F2143 /* DialogList_TowArray.swift */; };
+		0838E9071A56C693007F2143 /* DialogList_LikeTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0838E9051A56C693007F2143 /* DialogList_LikeTree.swift */; };
 		08DBBC231A53F72E006FD9EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DBBC221A53F72E006FD9EF /* AppDelegate.swift */; };
 		08DBBC261A53F72E006FD9EF /* demo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 08DBBC241A53F72E006FD9EF /* demo.xcdatamodeld */; };
 		08DBBC281A53F72E006FD9EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DBBC271A53F72E006FD9EF /* ViewController.swift */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0838E9041A56C693007F2143 /* DialogList_TowArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DialogList_TowArray.swift; sourceTree = "<group>"; };
+		0838E9051A56C693007F2143 /* DialogList_LikeTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DialogList_LikeTree.swift; sourceTree = "<group>"; };
 		08DBBC1D1A53F72E006FD9EF /* demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08DBBC211A53F72E006FD9EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		08DBBC221A53F72E006FD9EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +109,8 @@
 			children = (
 				08DBBC461A53F73D006FD9EF /* DialogAlert.swift */,
 				08DBBC471A53F73D006FD9EF /* DialogDatePicker.swift */,
+				0838E9041A56C693007F2143 /* DialogList_TowArray.swift */,
+				0838E9051A56C693007F2143 /* DialogList_LikeTree.swift */,
 				08DBBC481A53F73D006FD9EF /* Util.swift */,
 			);
 			path = Lib;
@@ -182,7 +188,9 @@
 			files = (
 				08DBBC4A1A53F73D006FD9EF /* DialogDatePicker.swift in Sources */,
 				08DBBC4B1A53F73D006FD9EF /* Util.swift in Sources */,
+				0838E9061A56C693007F2143 /* DialogList_TowArray.swift in Sources */,
 				08DBBC491A53F73D006FD9EF /* DialogAlert.swift in Sources */,
+				0838E9071A56C693007F2143 /* DialogList_LikeTree.swift in Sources */,
 				08DBBC281A53F72E006FD9EF /* ViewController.swift in Sources */,
 				08DBBC261A53F72E006FD9EF /* demo.xcdatamodeld in Sources */,
 				08DBBC231A53F72E006FD9EF /* AppDelegate.swift in Sources */,

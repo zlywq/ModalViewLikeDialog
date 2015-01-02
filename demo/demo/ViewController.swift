@@ -57,6 +57,61 @@ class ViewController: UIViewController {
         self.view.addSubview(dlgDt)
     }
     
+    
+    
+    @IBAction func btnDialogListTouched(sender: AnyObject) {
+        var getResultBeforeHide: (AnyObject)->Void = {
+            [unowned self] (val:AnyObject) -> Void in
+            self.lblMsg.text = "\(val)"
+        }
+        
+        var dlg1 = DialogList_TowArray()
+        dlg1.init1Layout(self.view)
+        var itemsShow:[String] = [] //["aa","bb","cc"]
+        var itemsVal:Array<AnyObject> = [] //[1,2,3]
+        for(var i=0; i<20; i++){
+            itemsShow.append("aasdf \(i)")
+            itemsVal.append(i)
+        }
+        
+        dlg1.init2Data(itemsShow, itemsValue:itemsVal, getResultBeforeHide: getResultBeforeHide)
+        self.view.addSubview(dlg1)
+    }
+    
+    
+    @IBAction func btnDialogTreeTouched(sender: AnyObject) {
+        var getResultBeforeHide: (AnyObject)->Void = {
+            [unowned self] (val:AnyObject) -> Void in
+            self.lblMsg.text = "\(val)"
+        }
+        
+        var dlg1 = DialogList_LikeTree()
+        dlg1.init1Layout(self.view)
+        var items:[[String:AnyObject]] = []
+        var keyName="name"
+        var keyValue="value"
+        var keyLevel="level"
+        for(var i=0; i<20; i++){
+            var item : [String:AnyObject] = [:]
+            item[keyName] = "aasdf \(i)"
+            item[keyValue] = i
+            item[keyLevel] = i
+            items.append(item)
+        }
+        
+        dlg1.init2Data(items, keyName:keyName, keyValue:keyValue, keyLevel:keyLevel, getResultBeforeHide:getResultBeforeHide)
+        self.view.addSubview(dlg1)
+    }
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
 
 }

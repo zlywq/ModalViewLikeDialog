@@ -40,6 +40,24 @@
                                     <action selector="btnDialogDateTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="O1H-Y8-IsS"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CUj-EA-0Sg">
+                                <rect key="frame" x="19" y="195" width="140" height="30"/>
+                                <state key="normal" title="SelectValueFromList">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnDialogListTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7IB-VW-Hcj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MFO-Hv-m9G">
+                                <rect key="frame" x="17" y="233" width="144" height="30"/>
+                                <state key="normal" title="SelectValueFromTree">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnDialogTreeTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HHD-Q0-wLB"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
